@@ -68,6 +68,7 @@ CIRCUIT DIAGRAM
 
 
 ### PROGRAM :
+```
  #include <Servo.h>
 Servo myservo;
 int value;
@@ -87,17 +88,10 @@ void loop()
   myservo.write(angle);
   delay(15);
 }
-
-
-
-
-
-
-
-
-
-### RESULTS: 
+```
+### OUTPUT
 
 ![Screenshot (108)](https://github.com/JeyaKrishnaSJ/EXPERIMENT-NO--05-INTERFACING-ANALOG-OUTPUT-SERVO-MOTOR-WITH-ARDUINO-/assets/118707091/0357b588-d888-4e89-b17e-17bbed8d1919)
+### RESULTS:
 
 Arduino uno interfacing with servo motor is learned and angular position is controlled using PWM signal.
